@@ -1,4 +1,3 @@
-// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -6,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   css: {
     postcss: {
-      plugins: [] // fallback to PostCSS, disables lightningcss
+      plugins: [] // fallback to PostCSS only
     }
   }
 })
