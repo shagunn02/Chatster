@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "postinstall": "if [ -f node_modules/lightningcss-linux-x64-musl/lightningcss.linux-x64-musl.node ]; then cp node_modules/lightningcss-linux-x64-musl/lightningcss.linux-x64-musl.node node_modules/lightningcss/lightningcss.linux-x64-gnu.node; fi"
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.12.2",
@@ -30,6 +29,7 @@
     "vite": "^7.1.7"
   },
   "optionalDependencies": {
-    "lightningcss-linux-x64-musl": "^1.0.0"
+  "lightningcss-linux-x64-gnu": "^1.0.0"
   }
+
 }
